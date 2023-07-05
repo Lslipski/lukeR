@@ -1,12 +1,16 @@
 Package: lukeR
-Title: What the Package Does (One Line, Title Case)
+Title: Personal R Utils
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Luke", "Slipski", , "lslipski602@gmail.com", role = c("aut", "cre"))
+Description: This package contains various r functions for working
+    primarily in the tidyverse in combination with a PostgreSQL server.
+License: MIT + file LICENSE
+BugReports: https://github.com/Lslipski/lukeR/issues
+Imports: 
+    DBI,
+    dplyr,
+    glue
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
